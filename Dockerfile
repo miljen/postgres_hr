@@ -1,3 +1,3 @@
-FROM postgres:10.6
+FROM postgres:10.7
 RUN localedef -i hr_HR -c -f UTF-8 -A /usr/share/locale/locale.alias hr_HR.UTF-8
 ENV LANG hr_HR.utf8
